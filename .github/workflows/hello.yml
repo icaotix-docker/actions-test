@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
-      max-parallel: 0
+      max-parallel: 1
       matrix: 
         hello: [AAA, CCC, EEE]
         include:
